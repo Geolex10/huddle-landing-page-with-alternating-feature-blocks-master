@@ -1,0 +1,535 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width:1440px) {
+    body{
+        background-color: #fff;
+        background-image: url(images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header{
+        width: 100vw;
+        box-sizing: border-box;
+        padding: 2rem 4rem 4rem 4rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 0rem;
+        background-color: hsla(180, 94%, 57%, 0.141);
+    }
+    header a{
+        text-decoration: none;
+        color: #111;
+        background-color: #fff;
+        padding: .5rem 1rem;
+        border-radius: 1rem;
+    }
+    .logo{
+        width: 8rem;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .container{
+        width: 90vw;
+        padding: 1rem;
+        text-align: unset;
+        box-sizing: border-box;
+        margin-bottom: 4rem;
+    }
+    .first h2{
+        width: 22rem;
+        font-size: 32px;
+        margin-bottom: 1rem;
+    }
+    .first p{
+        width: 33rem;
+        font-size: 21px;
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
+    .first{
+        width: 100vw;
+        background-color: hsla(180, 94%, 57%, 0.141);
+        display: flex;  
+        padding: 2rem 2rem 6rem 5rem; 
+        
+    }
+    .part{
+        width: 48vw;
+        align-self: center;
+    }
+    .ill-btn{
+        width: 8rem;
+        text-decoration: none;
+        padding: .5rem 3rem;
+        background-color: hsl(322, 100%, 66%);
+        color: #fff;
+        border-radius: 1rem;
+        font-size: 12px;
+    }
+    .ill-img{
+        width: 30rem;
+        margin: 2rem 0rem;
+    }
+    .ill-img img{
+        width: 100%;
+    }
+
+    .second-img{
+        width: 28rem;
+    }
+    .second-img img{
+        width: 100%;
+    }
+    .second h2{
+        font-size: 22px;
+        margin: 1rem 0rem;
+    }
+    .second p{
+        width: 33rem;
+        font-size: 22px;
+        color: hsl(208, 11%, 55%);
+        margin-bottom: 1rem;
+    }
+    .second{
+        background-color: hsl(0, 100%, 99%);
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding-left: 5rem;
+    }
+    .third-img{
+        width: 28rem;
+        margin-bottom: 1rem;
+    }
+    .third-img img{
+        width: 100%;
+    }
+    .third h2{
+        margin: 1rem 0rem;
+        font-size: 22px;
+    }
+    .third p{
+        width: 30rem;
+        font-size: 20px;
+        color: hsl(208, 11%, 55%);
+        margin-bottom: 1rem;
+    }
+    .third{
+        background-color: hsl(0, 100%, 99%);
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2rem 1rem 3rem 5rem;
+    }
+
+    .fourth-img{
+        width: 28rem;
+        margin-bottom: 1rem;
+    }
+    .fourth-img img{
+        width: 100%;
+    }
+    .fourth h2{
+        margin: 1rem 0rem;
+        font-size: 22px;
+    }
+    .fourth p{
+        width: 29rem;
+        font-size: 20px;
+        color: hsl(208, 11%, 55%);
+        margin-bottom: 1rem;
+    }
+    .fourth{
+        background-color: hsl(0, 100%, 99%);
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding-left: 5rem;
+    }
+    .float h2{
+        margin: 2rem 0rem;
+        font-size: 20px;
+    }
+    .float a{
+        text-decoration: none;
+        padding: .5rem 3rem;
+        background-color: hsl(322, 100%, 66%);
+        color: #fff;
+        border-radius: 1rem;
+        font-size: 12px;
+
+    }
+    .float{
+        background-color: hsl(0, 100%, 99%);
+        border-radius: 1rem;
+        text-align: center;
+        padding: 2rem 1rem;
+        box-sizing: border-box;
+        position: relative;
+        bottom: -3rem;
+    }
+    .fifth{
+        color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100vw;
+        background-color: hsl(192, 100%, 9%);
+        padding: 8rem 1rem 2rem 1rem;
+        box-sizing: border-box;
+    }
+    .ftr{
+        margin-right: 70rem;
+        margin-bottom: 1rem;
+    }
+    .fifth ul{
+        text-align: start;
+        list-style: none;
+        list-style-position: outside;
+        margin-left: 1rem;
+        padding-left: 1rem;
+        
+    }
+    li{
+        margin-bottom: 1rem;
+    }
+    .lorem{
+        width: 18rem;
+        list-style-image: url(images/icon-location.svg);
+    }
+    .num{
+        list-style-image: url(images/icon-phone.svg);
+    }
+    .email{
+        list-style-image: url(images/icon-email.svg);
+    }
+    .icon img{
+        width: 100%;
+    }
+    .icon{
+        width: 2rem;
+        margin-right: 1rem;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+    }
+    span{
+        justify-self: flex-end;
+        align-self: flex-end;
+    }
+    .fifth a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .first a:hover{
+        background-color: hsl(322, 99%, 71%);
+    }
+    .fifth a:hover{
+        text-decoration: underline;
+    }
+    .float a:hover{
+        background-color: hsl(322, 100%, 86%);
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:375px) {
+    body{
+        background-color: #fff;
+        background-image: url(images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header{
+        width: 100vw;
+        box-sizing: border-box;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    header a{
+        text-decoration: none;
+        color: #111;
+        background-color: #fff;
+        padding: .5rem 1rem;
+        border-radius: 1rem;
+    }
+    .logo{
+        width: 7rem;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .container{
+        width: 90vw;
+        padding: 1rem;
+        text-align: center;
+    }
+    .first h2{
+        width: 17rem;
+        font-size: 23px;
+        margin-bottom: 1rem;
+    }
+    .first p{
+        width: 18rem;
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+    .first{
+        width: 100vw;
+        display: unset;
+    }
+    .part{
+        width: 90vw;
+        margin: 0rem;
+    }
+    .ill-btn{
+        width: 5rem;
+        text-decoration: none;
+        padding: .5rem 2rem;
+        background-color: hsl(322, 100%, 66%);
+        color: #fff;
+        border-radius: 1rem;
+        font-size: 12px;
+    }
+    .ill-img{
+        width: 18rem;
+        margin: 2rem 0rem;
+    }
+    .ill-img img{
+        width: 100%;
+    }
+
+    .second-img{
+        width: 18rem;
+    }
+    .second-img img{
+        width: 100%;
+    }
+    .second h2{
+        font-size: 20px;
+        margin: 1rem 0rem;
+    }
+    .second p{
+        width: 18rem;
+        font-size: 18px;
+        color: hsl(208, 11%, 55%);
+        margin-bottom: 1rem;
+    }
+    .second{
+        background-color: hsl(0, 100%, 99%);
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+    .third-img{
+        width: 18rem;
+        margin-bottom: 1rem;
+    }
+    .third-img img{
+        width: 100%;
+    }
+    .third h2{
+        margin: 1rem 0rem;
+        font-size: 20px;
+    }
+    .third p{
+        width: 18rem;
+        font-size: 18px;
+        color: hsl(208, 11%, 55%);
+        margin-bottom: 1rem;
+    }
+    .third{
+        background-color: hsl(0, 100%, 99%);
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .fourth-img{
+        width: 18rem;
+        margin-bottom: 1rem;
+    }
+    .fourth-img img{
+        width: 100%;
+    }
+    .fourth h2{
+        margin: 1rem 0rem;
+        font-size: 20px;
+    }
+    .fourth p{
+        width: 18rem;
+        font-size: 18px;
+        color: hsl(208, 11%, 55%);
+        margin-bottom: 1rem;
+    }
+    .fourth{
+        background-color: hsl(0, 100%, 99%);
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+    .float h2{
+        margin: 2rem 0rem;
+        font-size: 20px;
+    }
+    .float a{
+        text-decoration: none;
+        padding: .5rem 3rem;
+        background-color: hsl(322, 100%, 66%);
+        color: #fff;
+        border-radius: 1rem;
+        font-size: 12px;
+
+    }
+    .float{
+        background-color: hsl(0, 100%, 99%);
+        border-radius: 1rem;
+        text-align: center;
+        padding: 2rem 1rem;
+        box-sizing: border-box;
+        position: relative;
+        bottom: -3rem;
+    }
+    .fifth{
+        width: 100vw;
+        background-color: hsl(192, 100%, 9%);
+        padding: 8rem 1rem 2rem 1rem;
+        box-sizing: border-box;
+        justify-content: flex-start;
+    }
+    .fifth ul{
+        width: 12rem;
+        text-align: start;
+        list-style: none;
+        list-style-position: outside;
+        margin-left: 1rem;
+        padding-left: 1rem;
+    }
+    li{
+        margin-bottom: 1rem;
+    }
+    .lorem{
+        width: 16rem;
+        list-style-image: url(images/icon-location.svg);
+    }
+    .num{
+        list-style-image: url(images/icon-phone.svg);
+    }
+    .email{
+        list-style-image: url(images/icon-email.svg);
+    }
+    .icon img{
+        width: 100%;
+    }
+    .icon{
+        width: 2rem;
+        margin-right: 1rem;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
